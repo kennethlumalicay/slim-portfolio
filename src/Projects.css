@@ -22,7 +22,7 @@
 }
 .project-shown > div {
   flex: 1;
-  background-color: rgba(0,0,0,0.95);
+  background-color: rgba(40,40,40,0.95);
   color: #eee;
   text-align: left;
   padding: 0.5rem;
