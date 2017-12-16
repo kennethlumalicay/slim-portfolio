@@ -45,11 +45,19 @@
 .shown-links span {
   margin: 0 0.5rem;
 }
-
 .projects-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.projects-list::-webkit-scrollbar {
+    width: 2px;
+}
+.projects-list::-webkit-scrollbar-track {
+  background-color: #ccc;
+}
+.projects-list::-webkit-scrollbar-thumb {
+  background-color: #333;
 }
 .project-item {
   background-size: cover;
