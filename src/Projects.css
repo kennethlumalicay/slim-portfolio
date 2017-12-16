@@ -75,22 +75,23 @@
     flex-direction: row;
   }
   .project-shown {
-    height: 16rem;
-    width: 32rem;
+    height: 19rem;
+    width: 38rem;
     animation: 0.25s 'show-project-768' ease-in-out;
   }
   .project-shown > div {
     padding: 1rem;
   }
   .projects-list {
-    width: 14rem;
-    height: 16rem;
+    width: 8rem;
+    height: 19rem;
     padding: 0 1rem;
     overflow-y: scroll;
   }
   .project-item {
-    height: 6rem;
-    width: 12rem;
+    height: 4rem;
+    width: 8rem;
+    margin: 0.5rem 0;
   }
   .project-item:first-child {
     margin-top: 0;
@@ -110,6 +111,6 @@
 @keyframes show-project-768 {
   0% {
     opacity: 0.4;
-    transform: translateX(15rem) scale(0.2);
+    transform: translateX(16rem) scale(0.2);
   }
 }
