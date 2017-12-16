@@ -1,6 +1,6 @@
 {
   "name": "slim-portfolio",
-  "homepage" : "http://kennethlumalicay.github.io/slim-portfolio",
+  "homepage" : "https://kennethlumalicay.github.io/slim-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
