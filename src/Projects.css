@@ -110,6 +110,6 @@
 
 @keyframes show-project {
   50% {
-    opacity: 0.5;
+    filter: brightness(0.4);
   }
 }
