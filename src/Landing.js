@@ -22,7 +22,7 @@ class Landing extends Component {
   render() {
     const { x , y } = this.state;
     return (
-      <div className='landing' onMouseMove={(e) => this.handleMouseMove(e)}>
+      <header className='landing' onMouseMove={(e) => this.handleMouseMove(e)}>
         <h1 className='name'>Kenneth Lu Malicay</h1>
         <div>
           <h2 className='title'>Full Stack Web Developer</h2>
@@ -49,7 +49,7 @@ class Landing extends Component {
           <span>|</span>
           <a href='https://twitter.com/nethoinkz' target='_blank' rel='noopener noreferrer'>twitter</a>
         </div>
-      </div>
+      </header>
     );
   }
 }

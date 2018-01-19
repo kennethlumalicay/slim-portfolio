@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import './Projects.css';
 
 class Projects extends Component {
@@ -30,22 +30,29 @@ class Projects extends Component {
     const selectedProject = data[selected];
 
     return (
-      <div className='projects'>
-        <div key={'project' + selected} className='project-shown' style={{backgroundImage: `url('./img/${selectedProject.img}')`}}>
-          <div>
-            <h3 className='shown-title'>{selectedProject.title}</h3>
-            <p className='shown-description'>{selectedProject.description}</p>
-            <div className='shown-links'>
-              <a href={selectedProject.link} target='_blank' rel='noopener noreferrer'>website</a>
-              <span>|</span>
-              <a href={selectedProject.github} target='_blank' rel='noopener noreferrer'>github</a>
+      <article className='projects'>
+        <h1>Projects</h1>
+        <div>
+          <div key={'project' + selected} className='project-shown' style={{backgroundImage: `url('./img/${selectedProject.img}')`}}>
+            <div>
+              <h3 className='shown-title'>{selectedProject.title}</h3>
+              <p className='shown-description'>{selectedProject.description}</p>
+              <div className='shown-links'>
+                <a href={selectedProject.link} target='_blank' rel='noopener noreferrer'>website</a>
+                { selectedProject.github
+                  ? <Fragment>
+                      <span>|</span>
+                      <a href={selectedProject.github} target='_blank' rel='noopener noreferrer'>github</a>
+                    </Fragment>
+                  : null }
+              </div>
             </div>
           </div>
+          <div className='projects-list'>
+            {list}
+          </div>
         </div>
-        <div className='projects-list'>
-          {list}
-        </div>
-      </div>
+      </article>
     );
   }
 }
@@ -87,11 +94,10 @@ const data = [
     img: 'voting.jpg'
   },
   {
-    title: 'Stock Chart',
-    description: 'Follow stock market prices of desired companies.',
-    link: 'https://stock-chart-app-klm.herokuapp.com/',
-    github: 'https://github.com/kennethlumalicay/stock-chart-app/#readme',
-    img: 'stock-chart.jpg'
+    title: 'Codepen Showcase',
+    description: 'Check out my projects showcasing my html, css, js, react, api and ajax capabilities.',
+    link: 'https://codepen.io/kennethlumalicay/',
+    img: 'codepen.jpg'
   }
 ];
 
