@@ -30,7 +30,7 @@ class Projects extends Component {
     const selectedProject = data[selected];
 
     return (
-      <article className='projects'>
+      <section className='projects'>
         <h1>Projects</h1>
         <div>
           <div key={'project' + selected} className='project-shown' style={{backgroundImage: `url('./img/${selectedProject.img}')`}}>
@@ -52,7 +52,7 @@ class Projects extends Component {
             {list}
           </div>
         </div>
-      </article>
+      </section>
     );
   }
 }
@@ -64,6 +64,13 @@ const data = [
     link: 'https://www.betterweb.tech/',
     github: 'https://github.com/kennethlumalicay/betterweb/#readme',
     img: 'betterweb.jpg'
+  },
+  {
+    title: 'Lens Vision - template',
+    description: 'This is a single page application built with react. (work in progress)',
+    link: 'https://kennethlumalicay.github.io/company-template/',
+    github: 'https://github.com/kennethlumalicay/company-template/#readme',
+    img: 'lens-vision.jpg'
   },
   {
     title: 'Nightlife App',

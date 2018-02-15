@@ -5,24 +5,17 @@ class Skills extends Component {
 
   render() {
     return (
-      <article className='skills'>
+      <section className='skills'>
         <pre>{skills}</pre>
-      </article>
+      </section>
     );
   }
 }
 
-const skills = `const mySkills = {
-  webDev: {
-    frontEnd: ['HTML 5', 'CSS 3', 'JS', 'ES6', 'React', 'Redux', 'JQuery', 'Bootstrap 4'],
-    backEnd: ['Node.js', 'MongoDB', 'Express', 'Passport', 'Socket.io'],
-    tools: ['Github', 'Heroku', 'Webpack', 'Babel', 'AWS S3', 'Google Analytics']
-  },
-  other: {
-    programming: ['Java', 'JavaFX', 'C++', 'Android', 'SQL'],
-    adobe: ['Photoshop'],
-    microsoft: ['Word', 'Excel', 'Powerpoint']
-  }
+const skills = `const skillsChecklist = {
+  frontEnd: ['Javascript', 'ES6', 'React', 'Redux', 'HTML 5', 'CSS 3', 'JQuery', 'Bootstrap 4'],
+  backEnd: ['Node.js', 'MongoDB', 'Express', 'Passport', 'Socket.io'],
+  tools: ['Photoshop', 'Github', 'Heroku', 'Webpack', 'Gulp', 'Babel', 'AWS S3', 'Google Analytics']
 }`
 
 export default Skills;

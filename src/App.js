@@ -10,8 +10,8 @@ class App extends Component {
     return (
       <div className='app'>
         <Landing />
-        <About />
         <Projects />
+        <About />
         <Skills />
         <footer>
           © 2018 Kenneth Lu Malicay. All rights reserved.
