@@ -66,8 +66,8 @@ const data = [
     img: 'betterweb.jpg'
   },
   {
-    title: 'Lens Vision - template',
-    description: 'This is a single page application built with react. (work in progress)',
+    title: 'Lens Vision (template)',
+    description: 'This is a single page application built with react.',
     link: 'https://kennethlumalicay.github.io/company-template/',
     github: 'https://github.com/kennethlumalicay/company-template/#readme',
     img: 'lens-vision.jpg'
