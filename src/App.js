@@ -7,6 +7,7 @@ import Skills from './Skills.js';
 
 class App extends Component {
   render() {
+    console.log(window.location);
     return (
       <div className='app'>
         <Landing />
