@@ -8,6 +8,8 @@
 // To learn more about the benefits of this model, read https://goo.gl/KwvDNy.
 // This link also includes instructions on opting out of this behavior.
 
+const REPO_PATH = '/slim-portfolio/';
+
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
     // [::1] is the IPv6 localhost address.
@@ -46,7 +48,7 @@ export default function register() {
 
 function registerValidSW(swUrl) {
   navigator.serviceWorker
-    .register(swUrl)
+    .register(swUrl, { scope: REPO_PATH })
     .then(registration => {
       registration.onupdatefound = () => {
         const installingWorker = registration.installing;
