@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "title": "BetterWeb",
+      "description": "This is a community for developers and web owners to share their websites or web applications and give each other feedback and suggestions.",
+      "link": "https://www.betterweb.tech/",
+      "github": "https://github.com/kennethlumalicay/betterweb/#readme",
+      "img": "betterweb.jpg",
+      "category": "featured"
+    },
+    {
+      "title": "Lens Vision (template)",
+      "description": "This is a single page application built with react.",
+      "link": "https://kennethlumalicay.github.io/company-template/",
+      "github": "https://github.com/kennethlumalicay/company-template/#readme",
+      "img": "lens-vision.jpg",
+      "category": "featured"
+    },
+    {
+      "title": "Nightlife App",
+      "description": "Search for nightlife activities in your desired location.",
+      "link": "https://nightlife-app-klm.herokuapp.com/",
+      "github": "https://github.com/kennethlumalicay/nightlife-app/#readme",
+      "img": "nightlife.jpg",
+      "category": "web-application"
+    },
+    {
+      "title": "ASD Album",
+      "description": "Browse and share photos!",
+      "link": "https://asd-album.herokuapp.com/",
+      "github": "https://github.com/kennethlumalicay/asd-album/#readme",
+      "img": "asd-album.jpg",
+      "category": "web-application"
+    },
+    {
+      "title": "Book Switch",
+      "description": "Browse books and request the books you like! You can also add your own book for people to see!",
+      "link": "https://book-trade-app-klm.herokuapp.com/",
+      "github": "https://github.com/kennethlumalicay/book-trade-app/#readme",
+      "img": "book-switch.jpg",
+      "category": "web-application"
+    },
+    {
+      "title": "Voting App",
+      "description": "Vote on polls made by other users or make your own!",
+      "link": "https://voting-app-klm.herokuapp.com/",
+      "github": "https://github.com/kennethlumalicay/voting-app/#readme",
+      "img": "voting.jpg",
+      "category": "web-application"
+    },
+    {
+      "title": "Endless Snake",
+      "description": "Classic snake with a twist!",
+      "link": "https://codepen.io/kennethlumalicay/full/pWovRj/",
+      "img": "snake.jpg",
+      "category": "fun-codepen-projects"
+    },
+    {
+      "title": "RPS Dashboard",
+      "description": "Two bots fight on rock paper scissors!",
+      "link": "https://codepen.io/kennethlumalicay/full/PQERyr/",
+      "img": "rps-dash.jpg",
+      "category": "fun-codepen-projects"
+    },
+    {
+      "title": "Simon Game",
+      "description": "Play simon game on normal or strict mode.",
+      "link": "https://codepen.io/kennethlumalicay/full/GWvGXj/",
+      "img": "simon.jpg",
+      "category": "fun-codepen-projects"
+    },
+    {
+      "title": "TicTacToe",
+      "description": "Play tic-tac-toe against cpu or another player.",
+      "link": "https://codepen.io/kennethlumalicay/full/LWjPgV/",
+      "img": "tictactoe.jpg",
+      "category": "fun-codepen-projects"
+    },
+    {
+      "title": "React Animations",
+      "description": "My react animations testing grounds.",
+      "link": "https://codepen.io/kennethlumalicay/full/wejzea/",
+      "img": "react-animation.jpg",
+      "category": "fun-codepen-projects"
+    },
+    {
+      "title": "Email Composer",
+      "description": "Use variables for composing email.",
+      "link": "https://codepen.io/kennethlumalicay/full/eeryJE/",
+      "img": "email-composer.jpg",
+      "category": "fun-codepen-projects"
+    },
+    {
+      "title": "FCC Leaderboard",
+      "description": "Check the rankings on freecodecamp.",
+      "link": "https://codepen.io/kennethlumalicay/full/MmXOav/",
+      "img": "fcc-leaderboard.jpg",
+      "category": "fun-codepen-projects"
+    },
+    {
+      "title": "Twitch Streamers",
+      "description": "Check this list of players if they're online and what they're playing.",
+      "link": "https://codepen.io/kennethlumalicay/full/RowqPb/",
+      "img": "twitch.jpg",
+      "category": "fun-codepen-projects"
+    },
+    {
+      "title": "Search Wiki",
+      "description": "Search wikipedia here.",
+      "link": "https://codepen.io/kennethlumalicay/full/PGMzXa/",
+      "img": "wiki.jpg",
+      "category": "fun-codepen-projects"
+    },
+    {
+      "title": "Weather",
+      "description": "Check weather in your area.",
+      "link": "https://codepen.io/kennethlumalicay/full/edwrqy/",
+      "img": "weather.jpg",
+      "category": "fun-codepen-projects"
+    },
+    {
+      "title": "Quotes",
+      "description": "Get inspired with these quotes.",
+      "link": "https://codepen.io/kennethlumalicay/full/yadKry/",
+      "img": "quote-gen.jpg",
+      "category": "fun-codepen-projects"
+    },
+    {
+      "title": "Tribute",
+      "description": "Jose Rizal tribute page.",
+      "link": "https://codepen.io/kennethlumalicay/full/GEpbPv/",
+      "img": "tribute.jpg",
+      "category": "fun-codepen-projects"
+    }
+  ]
+}
