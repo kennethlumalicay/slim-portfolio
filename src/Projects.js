@@ -103,7 +103,7 @@ class Projects extends Component {
         <CSSTransition
           in={changeSelect}
           classNames='project'
-          timeout={350}
+          timeout={200}
           onExited={() => this.handleExited()}
         >
           <ProjectShown {...shownItem}/>

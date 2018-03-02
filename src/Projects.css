@@ -16,7 +16,7 @@
   margin-top: 1rem;
 }
 .projects-container > button {
-  flex: 0 1 2rem;
+  flex: 0 1 2.5rem;
   background: none;
   outline: none;
   border: none;
@@ -125,7 +125,7 @@
 
 .project-enter.project-enter-active {
   filter: brightness(1);
-  transition: filter 350ms ease-in;
+  transition: filter 200ms ease-in;
 }
 
 .project-exit {
@@ -134,5 +134,5 @@
 
 .project-exit.project-exit-active {
   filter: brightness(0.2);
-  transition: filter 350ms ease-in;
+  transition: filter 200ms ease-in;
 }
