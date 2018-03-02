@@ -17,7 +17,7 @@ class ProjectItem extends Component {
             }
           </div>
           <div>
-            <a href={link} target='_blank' rel='noopener noreferrer'>visit</a>
+            <a href={link} target='_blank' rel='noopener noreferrer'>website</a>
             {
               github
                 ? (

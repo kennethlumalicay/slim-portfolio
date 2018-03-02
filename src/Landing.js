@@ -11,8 +11,11 @@ class Landing extends Component {
   }
 
   handleMouseMove(e) {
-    const x = -(window.innerWidth/2-e.screenX)/(window.innerWidth/25);
-    const y = -(window.innerHeight/2-e.screenY)/(window.innerHeight/25);
+    console.log('X', window.innerWidth, e.screenX);
+    console.log('Y', window.innerHeight, e.screenY);
+    const x = (e.screenX-window.innerWidth/2)/45;
+    const y = (e.screenY-window.innerHeight/2)/45;
+    console.log(x,y);
     this.setState({
       x: x,
       y: y
@@ -25,7 +28,7 @@ class Landing extends Component {
       <header className='landing' onMouseMove={(e) => this.handleMouseMove(e)}>
         <h1 className='name'>Kenneth Lu Malicay</h1>
         <div>
-          <h2 className='title'>Full Stack Web Developer</h2>
+          <h2 className='title'>Front End Web Developer</h2>
           <span>|</span>
           <h2 className='address'>NY</h2>
         </div>
@@ -34,7 +37,7 @@ class Landing extends Component {
           src='./img/kenneth.png'
           alt='Hi!'
           style={{
-            transform: `rotateX(${y}deg) rotateY(${x}deg) translate(${x}px, ${y}px)`
+            transform: `rotateX(${y*1.5}deg) rotateY(${x*1.5}deg) translate(${x}px, ${y}px)`
           }}
         />
         <div className='email'>
