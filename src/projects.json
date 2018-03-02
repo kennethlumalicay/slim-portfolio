@@ -6,7 +6,15 @@
       "link": "https://www.betterweb.tech/",
       "github": "https://github.com/kennethlumalicay/betterweb/#readme",
       "img": "betterweb.jpg",
-      "category": "featured"
+      "category": "featured",
+      "tools": [
+        "React",
+        "Redux",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Socket.io"
+      ]
     },
     {
       "title": "Lens Vision (template)",
