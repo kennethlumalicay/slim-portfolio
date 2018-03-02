@@ -114,7 +114,7 @@ class Projects extends Component {
             onMouseUp={event => this.handleMoveStop()}
             onTouchStart={event => this.handleMove(false)}
             onTouchEnd={event => this.handleMoveStop()}
-          ><img src='/img/arrow-left.png' alt='<'/></button>
+          ><img src='./img/arrow-left.png' alt='<'/></button>
           <div className='projects-list' ref='listElem'>
             { projectsList }
           </div>
@@ -123,7 +123,7 @@ class Projects extends Component {
             onMouseUp={event => this.handleMoveStop()}
             onTouchStart={event => this.handleMove(true)}
             onTouchEnd={event => this.handleMoveStop()}
-          ><img src='/img/arrow-right.png' alt='>'/></button>
+          ><img src='./img/arrow-right.png' alt='>'/></button>
         </div>
       </section>
     );
