@@ -11,11 +11,8 @@ class Landing extends Component {
   }
 
   handleMouseMove(e) {
-    console.log('X', window.innerWidth, e.screenX);
-    console.log('Y', window.innerHeight, e.screenY);
     const x = (e.screenX-window.innerWidth/2)/45;
     const y = (e.screenY-window.innerHeight/2)/45;
-    console.log(x,y);
     this.setState({
       x: x,
       y: y
