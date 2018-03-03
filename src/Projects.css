@@ -26,9 +26,6 @@
   overflow: hidden;
   transition: background 0.35s ease-in-out;
 }
-.projects-container > button:hover {
-  background: #eee;
-}
 .projects-container > button > img {
   position: relative;
   z-index: -1;
