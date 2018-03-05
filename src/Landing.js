@@ -10,6 +10,20 @@ class Landing extends Component {
     }
   }
 
+  handleScroll(e) {
+    let animate = setInterval(function() {
+      if(window.scrollY >= window.innerHeight) {
+        clearInterval(animate);
+        return;
+      }
+      window.scroll(0,window.scrollY+(window.innerHeight+64-window.scrollY)/24);
+      window.addEventListener('touchstart', function mobileTouch(e) {
+        clearInterval(animate);
+        window.removeEventListener('touchstart', mobileTouch);
+      });
+    });
+  }
+
   handleMouseMove(e) {
     const x = (e.screenX-window.innerWidth/2)/45;
     const y = (e.screenY-window.innerHeight/2)/45;
@@ -49,6 +63,7 @@ class Landing extends Component {
           <span>|</span>
           <a href='https://twitter.com/nethoinkz' target='_blank' rel='noopener noreferrer'>twitter</a>
         </div>
+        <img className='scroll-down' src='./img/scroll.png' alt='scroll' onClick={(e) => this.handleScroll(e)}/>
       </header>
     );
   }

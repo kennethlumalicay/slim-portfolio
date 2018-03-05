@@ -8,7 +8,7 @@ class About extends Component {
       <section className='about'>
         <h1>About me</h1>
 
-        <p>I like being around like minded people, learning, innovating and solving algorithms. Since moving to New York I found myself going to meetups like <a href='https://www.meetup.com/ReactNYC' target='_blank' rel='noopener noreferrer'>React NYC</a> to keep myself up to date and meet new people. I also like solving algorithm problem on <a href='https://www.codewars.com/users/kennethlumalicay' target='_blank' rel='noopener noreferrer'>codewars</a> and <a href='https://www.codingame.com/profile/33c8b8376be610e47e927e4828dc4d5d8618002' target='_blank' rel='noopener noreferrer'>codingame</a> on my spare time.</p>
+        <p>I like being around like minded people, learning, innovating and problem solving. Since moving to New York I found myself going to meetups like <a href='https://www.meetup.com/ReactNYC' target='_blank' rel='noopener noreferrer'>React NYC</a> to keep myself up to date and meet new people. I also like solving algorithmic problems on <a href='https://www.codewars.com/users/kennethlumalicay' target='_blank' rel='noopener noreferrer'>codewars</a> and <a href='https://www.codingame.com/profile/33c8b8376be610e47e927e4828dc4d5d8618002' target='_blank' rel='noopener noreferrer'>codingame</a> on my spare time.</p>
 
         <p>My projects include web applications with dynamic web content, live content update and server side rendering.</p>
 

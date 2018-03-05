@@ -6,7 +6,7 @@
   align-items: center;
 }
 .name {
-  margin: 0 0;
+  margin: auto 0 0 0;
 }
 .name + div {
   color: #444;
@@ -40,6 +40,12 @@
 }
 .links span {
   margin: 0 0.5rem;
+}
+.scroll-down {
+  margin: auto auto 0 auto;
+  max-width: 1.5rem;
+  padding: 1rem 1rem 5px 1rem;
+  cursor: pointer;
 }
 @media screen and (min-width: 768px) {
   .landing > div {
