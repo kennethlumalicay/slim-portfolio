@@ -26,7 +26,7 @@
     },
     {
       "title": "Nightlife App",
-      "description": "Search for nightlife activities in your desired location.",
+      "description": "Search for nightlife activities in your desired location. (hosted on heroku free tier, could take a while to load)",
       "link": "https://nightlife-app-klm.herokuapp.com/",
       "github": "https://github.com/kennethlumalicay/nightlife-app/#readme",
       "img": "nightlife.jpg",
@@ -34,7 +34,7 @@
     },
     {
       "title": "ASD Album",
-      "description": "Browse and share photos!",
+      "description": "Browse and share photos! (hosted on heroku free tier, could take a while to load)",
       "link": "https://asd-album.herokuapp.com/",
       "github": "https://github.com/kennethlumalicay/asd-album/#readme",
       "img": "asd-album.jpg",
@@ -42,7 +42,7 @@
     },
     {
       "title": "Book Switch",
-      "description": "Browse books and request the books you like! You can also add your own book for people to see!",
+      "description": "Browse books and request the books you like! You can also add your own book for people to see! (hosted on heroku free tier, could take a while to load)",
       "link": "https://book-trade-app-klm.herokuapp.com/",
       "github": "https://github.com/kennethlumalicay/book-trade-app/#readme",
       "img": "book-switch.jpg",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Voting App",
-      "description": "Vote on polls made by other users or make your own!",
+      "description": "Vote on polls made by other users or make your own! (hosted on heroku free tier, could take a while to load)",
       "link": "https://voting-app-klm.herokuapp.com/",
       "github": "https://github.com/kennethlumalicay/voting-app/#readme",
       "img": "voting.jpg",
