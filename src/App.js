@@ -16,6 +16,7 @@ class App extends Component {
         <footer>
           © 2018 Kenneth Lu Malicay. All rights reserved.
         </footer>
+        <div className='top-border'></div>
       </div>
     );
   }
