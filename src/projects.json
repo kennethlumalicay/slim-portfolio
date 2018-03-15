@@ -17,11 +17,19 @@
       ]
     },
     {
-      "title": "Lens Vision (template)",
-      "description": "This is a single page application built with react.",
+      "title": "Lens Vision",
+      "description": "This is a company template single page application built with react.",
       "link": "https://kennethlumalicay.github.io/company-template/",
       "github": "https://github.com/kennethlumalicay/company-template/#readme",
       "img": "lens-vision.jpg",
+      "category": "featured"
+    },
+    {
+      "title": "Bonifacio's",
+      "description": "This is a restaurant template single page application built with react.",
+      "link": "https://kennethlumalicay.github.io/restaurant-template/",
+      "github": "https://github.com/kennethlumalicay/restaurant-template/#readme",
+      "img": "bonifacios.jpg",
       "category": "featured"
     },
     {

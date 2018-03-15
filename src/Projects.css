@@ -40,8 +40,11 @@
   flex: 1 0;
   position: relative;
   display: flex;
-  overflow: hidden;
+  overflow: auto;
   padding: 5px 0;
+}
+.projects-list::-webkit-scrollbar {
+  display: hidden;
 }
 .projects-list > .project-item-container:first-child {
   margin-left: 0;
