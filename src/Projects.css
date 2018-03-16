@@ -45,6 +45,10 @@
 }
 .projects-list::-webkit-scrollbar {
   display: hidden;
+  height: 0px;
+  width: 0px;
+  opacity: 0;
+  visibility: hidden;
 }
 .projects-list > .project-item-container:first-child {
   margin-left: 0;
