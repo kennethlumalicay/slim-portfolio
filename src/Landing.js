@@ -36,12 +36,11 @@ class Landing extends Component {
   render() {
     const { x , y } = this.state;
     return (
-      <header className='landing' onMouseMove={(e) => this.handleMouseMove(e)}>
+      // <header className='landing' onMouseMove={(e) => this.handleMouseMove(e)}>
+      <header className='landing'>
         <h1 className='name'>Kenneth Lu Malicay</h1>
         <div>
           <h2 className='title'>Front End Web Developer</h2>
-          <span>|</span>
-          <h2 className='address'>NY</h2>
         </div>
         <img
           className='landing-img'

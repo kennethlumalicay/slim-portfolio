@@ -13,7 +13,7 @@ class Skills extends Component {
 }
 
 const skills = `const skillsChecklist = {
-  frontEnd: ['Javascript', 'ES6', 'React', 'Redux', 'HTML 5', 'CSS 3', 'JQuery', 'Bootstrap 4'],
+  frontEnd: ['Javascript', 'React', 'React Native', 'ES6', 'Redux', 'HTML 5', 'CSS 3', 'JQuery', 'Bootstrap 4'],
   backEnd: ['Node.js', 'MongoDB', 'Express', 'Passport', 'Socket.io'],
   tools: ['Photoshop', 'Github', 'Heroku', 'Webpack', 'Gulp', 'Babel', 'AWS S3', 'Google Analytics']
 }`
